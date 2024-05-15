@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F68B2A9F2BBDBD4C00DF6A7E /* Pulsing_PyramidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B2A9E2BBDBD4C00DF6A7E /* Pulsing_PyramidApp.swift */; };
+		F68B2AA12BBDBD4C00DF6A7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B2AA02BBDBD4C00DF6A7E /* ContentView.swift */; };
+		F68B2AA32BBDBD4E00DF6A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68B2AA22BBDBD4E00DF6A7E /* Assets.xcassets */; };
+		F68B2AA72BBDBD4E00DF6A7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68B2AA62BBDBD4E00DF6A7E /* Preview Assets.xcassets */; };
+		F68B2AB12BBDBD4E00DF6A7E /* Pulsing_PyramidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B2AB02BBDBD4E00DF6A7E /* Pulsing_PyramidTests.swift */; };
+		F68B2ABB2BBDBD4E00DF6A7E /* Pulsing_PyramidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B2ABA2BBDBD4E00DF6A7E /* Pulsing_PyramidUITests.swift */; };
+		F68B2ABD2BBDBD4E00DF6A7E /* Pulsing_PyramidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B2ABC2BBDBD4E00DF6A7E /* Pulsing_PyramidUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F68B2AAD2BBDBD4E00DF6A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F68B2A932BBDBD4C00DF6A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F68B2A9A2BBDBD4C00DF6A7E;
+			remoteInfo = "Pulsing Pyramid";
+		};
+		F68B2AB72BBDBD4E00DF6A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F68B2A932BBDBD4C00DF6A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F68B2A9A2BBDBD4C00DF6A7E;
+			remoteInfo = "Pulsing Pyramid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F68B2A9B2BBDBD4C00DF6A7E /* Pulsing Pyramid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pulsing Pyramid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68B2A9E2BBDBD4C00DF6A7E /* Pulsing_PyramidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsing_PyramidApp.swift; sourceTree = "<group>"; };
+		F68B2AA02BBDBD4C00DF6A7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F68B2AA22BBDBD4E00DF6A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F68B2AA42BBDBD4E00DF6A7E /* Pulsing_Pyramid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pulsing_Pyramid.entitlements; sourceTree = "<group>"; };
+		F68B2AA62BBDBD4E00DF6A7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F68B2AAC2BBDBD4E00DF6A7E /* Pulsing PyramidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pulsing PyramidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68B2AB02BBDBD4E00DF6A7E /* Pulsing_PyramidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsing_PyramidTests.swift; sourceTree = "<group>"; };
+		F68B2AB62BBDBD4E00DF6A7E /* Pulsing PyramidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pulsing PyramidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68B2ABA2BBDBD4E00DF6A7E /* Pulsing_PyramidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsing_PyramidUITests.swift; sourceTree = "<group>"; };
+		F68B2ABC2BBDBD4E00DF6A7E /* Pulsing_PyramidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsing_PyramidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F68B2A982BBDBD4C00DF6A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68B2AA92BBDBD4E00DF6A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68B2AB32BBDBD4E00DF6A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F68B2A922BBDBD4C00DF6A7E = {
+			isa = PBXGroup;
+			children = (
+				F68B2A9D2BBDBD4C00DF6A7E /* Pulsing Pyramid */,
+				F68B2AAF2BBDBD4E00DF6A7E /* Pulsing PyramidTests */,
+				F68B2AB92BBDBD4E00DF6A7E /* Pulsing PyramidUITests */,
+				F68B2A9C2BBDBD4C00DF6A7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F68B2A9C2BBDBD4C00DF6A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F68B2A9B2BBDBD4C00DF6A7E /* Pulsing Pyramid.app */,
+				F68B2AAC2BBDBD4E00DF6A7E /* Pulsing PyramidTests.xctest */,
+				F68B2AB62BBDBD4E00DF6A7E /* Pulsing PyramidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F68B2A9D2BBDBD4C00DF6A7E /* Pulsing Pyramid */ = {
+			isa = PBXGroup;
+			children = (
+				F68B2A9E2BBDBD4C00DF6A7E /* Pulsing_PyramidApp.swift */,
+				F68B2AA02BBDBD4C00DF6A7E /* ContentView.swift */,
+				F68B2AA22BBDBD4E00DF6A7E /* Assets.xcassets */,
+				F68B2AA42BBDBD4E00DF6A7E /* Pulsing_Pyramid.entitlements */,
+				F68B2AA52BBDBD4E00DF6A7E /* Preview Content */,
+			);
+			path = "Pulsing Pyramid";
+			sourceTree = "<group>";
+		};
+		F68B2AA52BBDBD4E00DF6A7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F68B2AA62BBDBD4E00DF6A7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F68B2AAF2BBDBD4E00DF6A7E /* Pulsing PyramidTests */ = {
+			isa = PBXGroup;
+			children = (
+				F68B2AB02BBDBD4E00DF6A7E /* Pulsing_PyramidTests.swift */,
+			);
+			path = "Pulsing PyramidTests";
+			sourceTree = "<group>";
+		};
+		F68B2AB92BBDBD4E00DF6A7E /* Pulsing PyramidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F68B2ABA2BBDBD4E00DF6A7E /* Pulsing_PyramidUITests.swift */,
+				F68B2ABC2BBDBD4E00DF6A7E /* Pulsing_PyramidUITestsLaunchTests.swift */,
+			);
+			path = "Pulsing PyramidUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F68B2A9A2BBDBD4C00DF6A7E /* Pulsing Pyramid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68B2AC02BBDBD4E00DF6A7E /* Build configuration list for PBXNativeTarget "Pulsing Pyramid" */;
+			buildPhases = (
+				F68B2A972BBDBD4C00DF6A7E /* Sources */,
+				F68B2A982BBDBD4C00DF6A7E /* Frameworks */,
+				F68B2A992BBDBD4C00DF6A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pulsing Pyramid";
+			productName = "Pulsing Pyramid";
+			productReference = F68B2A9B2BBDBD4C00DF6A7E /* Pulsing Pyramid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F68B2AAB2BBDBD4E00DF6A7E /* Pulsing PyramidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68B2AC32BBDBD4E00DF6A7E /* Build configuration list for PBXNativeTarget "Pulsing PyramidTests" */;
+			buildPhases = (
+				F68B2AA82BBDBD4E00DF6A7E /* Sources */,
+				F68B2AA92BBDBD4E00DF6A7E /* Frameworks */,
+				F68B2AAA2BBDBD4E00DF6A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F68B2AAE2BBDBD4E00DF6A7E /* PBXTargetDependency */,
+			);
+			name = "Pulsing PyramidTests";
+			productName = "Pulsing PyramidTests";
+			productReference = F68B2AAC2BBDBD4E00DF6A7E /* Pulsing PyramidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F68B2AB52BBDBD4E00DF6A7E /* Pulsing PyramidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68B2AC62BBDBD4E00DF6A7E /* Build configuration list for PBXNativeTarget "Pulsing PyramidUITests" */;
+			buildPhases = (
+				F68B2AB22BBDBD4E00DF6A7E /* Sources */,
+				F68B2AB32BBDBD4E00DF6A7E /* Frameworks */,
+				F68B2AB42BBDBD4E00DF6A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F68B2AB82BBDBD4E00DF6A7E /* PBXTargetDependency */,
+			);
+			name = "Pulsing PyramidUITests";
+			productName = "Pulsing PyramidUITests";
+			productReference = F68B2AB62BBDBD4E00DF6A7E /* Pulsing PyramidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F68B2A932BBDBD4C00DF6A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F68B2A9A2BBDBD4C00DF6A7E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F68B2AAB2BBDBD4E00DF6A7E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F68B2A9A2BBDBD4C00DF6A7E;
+					};
+					F68B2AB52BBDBD4E00DF6A7E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F68B2A9A2BBDBD4C00DF6A7E;
+					};
+				};
+			};
+			buildConfigurationList = F68B2A962BBDBD4C00DF6A7E /* Build configuration list for PBXProject "Pulsing Pyramid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F68B2A922BBDBD4C00DF6A7E;
+			productRefGroup = F68B2A9C2BBDBD4C00DF6A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F68B2A9A2BBDBD4C00DF6A7E /* Pulsing Pyramid */,
+				F68B2AAB2BBDBD4E00DF6A7E /* Pulsing PyramidTests */,
+				F68B2AB52BBDBD4E00DF6A7E /* Pulsing PyramidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F68B2A992BBDBD4C00DF6A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68B2AA72BBDBD4E00DF6A7E /* Preview Assets.xcassets in Resources */,
+				F68B2AA32BBDBD4E00DF6A7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68B2AAA2BBDBD4E00DF6A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68B2AB42BBDBD4E00DF6A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F68B2A972BBDBD4C00DF6A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68B2AA12BBDBD4C00DF6A7E /* ContentView.swift in Sources */,
+				F68B2A9F2BBDBD4C00DF6A7E /* Pulsing_PyramidApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68B2AA82BBDBD4E00DF6A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68B2AB12BBDBD4E00DF6A7E /* Pulsing_PyramidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68B2AB22BBDBD4E00DF6A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68B2ABD2BBDBD4E00DF6A7E /* Pulsing_PyramidUITestsLaunchTests.swift in Sources */,
+				F68B2ABB2BBDBD4E00DF6A7E /* Pulsing_PyramidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F68B2AAE2BBDBD4E00DF6A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F68B2A9A2BBDBD4C00DF6A7E /* Pulsing Pyramid */;
+			targetProxy = F68B2AAD2BBDBD4E00DF6A7E /* PBXContainerItemProxy */;
+		};
+		F68B2AB82BBDBD4E00DF6A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F68B2A9A2BBDBD4C00DF6A7E /* Pulsing Pyramid */;
+			targetProxy = F68B2AB72BBDBD4E00DF6A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F68B2ABE2BBDBD4E00DF6A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F68B2ABF2BBDBD4E00DF6A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F68B2AC12BBDBD4E00DF6A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pulsing Pyramid/Pulsing_Pyramid.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pulsing Pyramid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Organization.Pulsing-Pyramid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F68B2AC22BBDBD4E00DF6A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pulsing Pyramid/Pulsing_Pyramid.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pulsing Pyramid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Organization.Pulsing-Pyramid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F68B2AC42BBDBD4E00DF6A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Organization.Pulsing-PyramidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pulsing Pyramid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pulsing Pyramid";
+			};
+			name = Debug;
+		};
+		F68B2AC52BBDBD4E00DF6A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Organization.Pulsing-PyramidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pulsing Pyramid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pulsing Pyramid";
+			};
+			name = Release;
+		};
+		F68B2AC72BBDBD4E00DF6A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Organization.Pulsing-PyramidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pulsing Pyramid";
+			};
+			name = Debug;
+		};
+		F68B2AC82BBDBD4E00DF6A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Organization.Pulsing-PyramidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pulsing Pyramid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F68B2A962BBDBD4C00DF6A7E /* Build configuration list for PBXProject "Pulsing Pyramid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68B2ABE2BBDBD4E00DF6A7E /* Debug */,
+				F68B2ABF2BBDBD4E00DF6A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68B2AC02BBDBD4E00DF6A7E /* Build configuration list for PBXNativeTarget "Pulsing Pyramid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68B2AC12BBDBD4E00DF6A7E /* Debug */,
+				F68B2AC22BBDBD4E00DF6A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68B2AC32BBDBD4E00DF6A7E /* Build configuration list for PBXNativeTarget "Pulsing PyramidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68B2AC42BBDBD4E00DF6A7E /* Debug */,
+				F68B2AC52BBDBD4E00DF6A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68B2AC62BBDBD4E00DF6A7E /* Build configuration list for PBXNativeTarget "Pulsing PyramidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68B2AC72BBDBD4E00DF6A7E /* Debug */,
+				F68B2AC82BBDBD4E00DF6A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F68B2A932BBDBD4C00DF6A7E /* Project object */;
+}
